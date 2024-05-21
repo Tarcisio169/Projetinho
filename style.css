@@ -1,0 +1,66 @@
+/* Os parâmetros de estilização gerais do projeto*/
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fefefe;
+}
+/* Os parâmetros de estilização do cabeçalho da página*/
+header {
+    background-color: #2f529e;
+    color: #fefefe;
+    padding: 2px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 1;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 8px;
+}
+
+nav ul li a {
+    color: #fefefe;
+    text-decoration: none;
+}
+/* Parâmetros que dão forma a página de fundo principal*/
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+/* Os parâmetros de estilização do rodapé da página*/
+footer {
+    background-color: #2f529e;
+    color: #fefefe;
+    text-align: center;
+    padding: 2px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* Os parâmetros de estilização do formulário */
+form label {
+    display: block;
+    margin: 2px 1px 4px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+/* parte do código em que define as particularidades do botão enviar */
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #2f529e;
+    color: #fefefe;
+    border: none;
+    cursor: pointer;
+}
